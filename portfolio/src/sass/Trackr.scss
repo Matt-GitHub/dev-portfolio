@@ -1,0 +1,78 @@
+.project {
+  display: flex;
+  width: 70%;
+  margin: 0% auto;
+  margin-top: 8%;
+}
+
+.projectHeader {
+  font-size: 4rem;
+
+  @media (max-width: 725px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 2rem;
+  }
+}
+
+.projectParagraph {
+  font-size: 1.5rem;
+  width: 55%;
+  /* width: 57%; */
+  color: rgb(98, 105, 108);
+
+  @media (max-width: 1400px) {
+    width: 70%;
+  }
+
+  @media (max-width: 1075px) {
+    width: 88%;
+    font-size: 1.65rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 1.3rem;
+  }
+}
+
+.projectUl {
+  font-size: 1.25rem;
+  width: 45%;
+  line-height: 1.5;
+  color: rgb(98, 105, 108);
+
+  @media (max-width: 1400px) {
+    width: 70%;
+  }
+
+  @media (max-width: 1075px) {
+    width: 77%;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 90%;
+  }
+}
+
+.projectParagraphLink {
+  font-size: 1.5rem;
+  width: 100%;
+  color: rgb(29, 163, 149);
+  font-weight: 600;
+  display: flex;
+}
+
+.projectImage {
+  margin-left: 2%;
+}

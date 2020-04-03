@@ -1,0 +1,47 @@
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0% auto;
+  margin-top: 5%;
+  width: 70%;
+}
+
+.experienceTitle {
+  font-size: 4rem;
+
+  @media (max-width: 725px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 2rem;
+  }
+}
+
+.experienceParagraph {
+  font-size: 1.9rem;
+  width: 75%;
+  line-height: 1.65;
+  color: rgb(98, 105, 108);
+
+  @media (max-width: 1400px) {
+    width: 90%;
+  }
+
+  @media (max-width: 1075px) {
+    width: 100%;
+  }
+
+  @media (max-width: 875px) {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 630px) {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 1.2rem;
+  }
+}

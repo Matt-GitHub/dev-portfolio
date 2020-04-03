@@ -1,0 +1,83 @@
+.labs {
+  display: flex;
+  width: 70%;
+  margin: 5% auto;
+}
+
+.labsHeader {
+  font-size: 4rem;
+  color: white;
+
+  @media (max-width: 1400px) {
+    color: black;
+  }
+
+  @media (max-width: 725px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 2rem;
+  }
+}
+
+.labsParagraph {
+  font-size: 1.5rem;
+  width: 55%;
+  color: white;
+
+  @media (max-width: 1400px) {
+    color: rgb(98, 105, 108);
+    width: 70%;
+  }
+
+  @media (max-width: 1075px) {
+    width: 88%;
+    font-size: 1.65rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 1.3rem;
+  }
+}
+
+.labsUl {
+  font-size: 1.25rem;
+  width: 55%;
+  line-height: 1.5;
+  color: white;
+
+  @media (max-width: 1400px) {
+    color: rgb(98, 105, 108);
+    width: 70%;
+  }
+
+  @media (max-width: 1075px) {
+    width: 77%;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 90%;
+  }
+}
+
+.labsParagraphLink {
+  font-size: 1.5rem;
+  width: 100%;
+  color: rgb(29, 163, 149);
+  font-weight: 600;
+  display: flex;
+}
+
+.labsImage {
+  margin-left: 2%;
+}

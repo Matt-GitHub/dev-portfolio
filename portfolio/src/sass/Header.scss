@@ -1,0 +1,46 @@
+.headerContainer {
+  font-size: 2rem;
+  margin: 0% 15.5%;
+  margin-top: 8%;
+  line-height: 0.3;
+
+  @media (max-width: 725px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 1.35rem;
+  }
+
+  @media (max-width: 484px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 412px) {
+    font-size: 1.05rem;
+  }
+
+  @media (max-width: 363px) {
+    font-size: 0.9rem;
+  }
+}
+
+.intro {
+  color: rgb(98, 105, 108);
+}
+
+.alt {
+  color: rgb(29, 163, 149);
+  /* text-shadow: 0.5px 0.5px 0.5px #000000; */
+}
+
+.links {
+  list-style: none;
+  margin-right: 1%;
+}
+
+.media ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+}

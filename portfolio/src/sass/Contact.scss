@@ -1,0 +1,50 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto;
+  width: 70%;
+  max-width: 100%;
+}
+
+.contactTitle {
+  font-size: 4rem;
+  margin: 5% 0% 2% 0%;
+
+  @media (max-width: 725px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 553px) {
+    font-size: 2rem;
+  }
+}
+
+.contactParagraph {
+  font-size: 1.9rem;
+  width: 100%;
+  color: rgb(98, 105, 108);
+
+  @media (max-width: 610px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 378px) {
+    font-size: 1.1rem;
+  }
+}
+
+.email {
+  color: rgb(29, 163, 149);
+}
+.email:hover {
+  cursor: pointer;
+}
+
+a {
+  color: rgb(29, 163, 149);
+  text-decoration: none;
+}
