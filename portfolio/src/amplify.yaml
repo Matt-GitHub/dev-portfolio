@@ -4,13 +4,14 @@ frontend:
     # IMPORTANT - Please verify your build commands
     preBuild:
       commands:
-        - cd portfolio
-        - npm install
+        - rm -rf node_modules
+          - cd portfolio
+          - npm install
     build:
       commands:
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /dev-portfolio/portfolio/build
+    baseDirectory: portfolio/build
     files:
       - "**/*"
