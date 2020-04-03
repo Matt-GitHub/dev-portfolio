@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.527b1e8f.chunk.css",
+    "main.js": "/static/js/main.1814e0fc.chunk.js",
+    "main.js.map": "/static/js/main.1814e0fc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb07c764.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb07c764.js.map",
+    "static/js/2.df11f8c4.chunk.js": "/static/js/2.df11f8c4.chunk.js",
+    "static/js/2.df11f8c4.chunk.js.map": "/static/js/2.df11f8c4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f56bef81e2089d0adeaa58a45eef4a96.js": "/precache-manifest.f56bef81e2089d0adeaa58a45eef4a96.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.527b1e8f.chunk.css.map": "/static/css/main.527b1e8f.chunk.css.map",
+    "static/js/2.df11f8c4.chunk.js.LICENSE.txt": "/static/js/2.df11f8c4.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Background1.218b7383.svg",
+    "static/media/icons8-github-50.svg": "/static/media/icons8-github-50.135b499e.svg",
+    "static/media/icons8-linkedin-50.svg": "/static/media/icons8-linkedin-50.3241aa46.svg",
+    "static/media/icons8-right-35.svg": "/static/media/icons8-right-35.eef4c71a.svg",
+    "static/media/icons8-twitter-50.svg": "/static/media/icons8-twitter-50.193bdff7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb07c764.js",
+    "static/js/2.df11f8c4.chunk.js",
+    "static/css/main.527b1e8f.chunk.css",
+    "static/js/main.1814e0fc.chunk.js"
+  ]
+}
