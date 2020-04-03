@@ -13,4 +13,4 @@ frontend:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: portfolio/build
     files:
-      - "**/*"
+      - /portfolio
