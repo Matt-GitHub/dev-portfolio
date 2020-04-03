@@ -21,11 +21,14 @@ frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     preBuild:
-      commands: npm install
+      commands:
+        - cd portfolio
+        - npm ci
     build:
-      commands: "npm react-scripts build"
+      commands:
+        - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /dev-portfolio/portfolio/src
+    baseDirectory: /dev-portfolio
     files:
       - "**/*"
