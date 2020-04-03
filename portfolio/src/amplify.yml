@@ -1,17 +1,17 @@
-version: 0.1
-frontend:
-  phases:
-      preBuild:
-      commands:
-        - npm install
-    build:
-      commands:
-        - npm react-scripts build
-  artifacts:
-    # IMPORTANT - Please verify your build output directory
-    baseDirectory: build
-    files:
-      - "**/*"
-  cache:
-    paths:
-      - node_modules/**/*
+# version: 0.1
+# frontend:
+#   phases:
+#       preBuild:
+#       commands:
+#         - npm install
+#     build:
+#       commands:
+#         - npm react-scripts build
+#   artifacts:
+#     # IMPORTANT - Please verify your build output directory
+#     baseDirectory: build
+#     files:
+#       - "**/*"
+#   cache:
+#     paths:
+#       - node_modules/**/*
