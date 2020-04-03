@@ -4,7 +4,6 @@ frontend:
     # IMPORTANT - Please verify your build commands
     preBuild:
       commands:
-        - rm -rf node_modules
         - cd portfolio
         - npm install
     build:
