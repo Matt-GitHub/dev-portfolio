@@ -7,7 +7,7 @@ frontend:
         - npm install
     build:
       commands:
-        - npm build
+        - npm run build
   artifacts:
     baseDirectory: public
     files:
