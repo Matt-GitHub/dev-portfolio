@@ -15,3 +15,15 @@
 #   cache:
 #     paths:
 #       - node_modules/**/*
+
+version: 0.1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands: npm react-scripts build
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /src
+    files:
+      - "**/*"
