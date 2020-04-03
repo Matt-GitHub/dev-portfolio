@@ -12,6 +12,6 @@ frontend:
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /dev-portfolioportfolio/build
+    baseDirectory: public
     files:
       - "**/*"
