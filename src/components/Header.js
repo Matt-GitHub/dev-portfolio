@@ -19,12 +19,15 @@ const Header = () => {
             </a>
           </li>
           <li className="links">
-            <a href="https://github.com/matt-github" target="blank">
+            <a
+              href="https://www.linkedin.com/in/matthew-bedard-dev"
+              target="blank"
+            >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
           </li>
           <li className="links">
-            <a href="https://github.com/matt-github" target="blank">
+            <a href="https://twitter.com/Matthew_Bedard_" target="blank">
               <img fill="" src={Twitter} alt="Twitter" />
             </a>
           </li>

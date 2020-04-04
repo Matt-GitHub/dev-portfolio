@@ -47,10 +47,7 @@ const Contact = () => {
 
       <p className="contactParagraph">
         Add me to your network{" "}
-        <a
-          href="https://linkedin.com/in/matthew-james-b1bb891a5"
-          target="blank"
-        >
+        <a href="www.linkedin.com/in/matthew-bedard-dev" target="blank">
           LinkedIn
         </a>
       </p>

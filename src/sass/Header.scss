@@ -18,10 +18,16 @@
 
   @media (max-width: 412px) {
     font-size: 1.05rem;
+    margin-right: 0%;
+    max-width: 95%;
   }
 
-  @media (max-width: 363px) {
+  @media (max-width: 336px) {
     font-size: 0.9rem;
+    margin-right: 0%;
+  }
+  @media (max-width: 259px) {
+    font-size: 0.8rem;
   }
 }
 
