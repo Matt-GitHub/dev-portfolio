@@ -1,5 +1,5 @@
-import React from "react";
-import Arrow from "../assets/icons8-right-35.svg";
+import React from 'react';
+import Arrow from '../assets/icons8-right-35.svg';
 
 const SoMe = () => {
   return (
@@ -26,14 +26,21 @@ const SoMe = () => {
             a SCRUM enviornment
           </li>
         </ul>
-        <p className="labsParagraphLink">
-          Checkout the experience{" "}
-          <img className="labsImage" src={Arrow} alt="arrow pointing right" />
-        </p>
-        <p className="labsParagraphLink">
-          Checkout the code{" "}
-          <img className="labsImage" src={Arrow} alt="arrow pointing right" />
-        </p>
+        <a
+          href="https://github.com/Lambda-School-Labs/social-media-strategy-fe#readme"
+          target="blank"
+        >
+          <p className="labsParagraphLink">
+            Checkout the code{' '}
+            <img className="labsImage" src={Arrow} alt="arrow pointing right" />
+          </p>
+        </a>
+        <a href="https://www.so-me.net/" target="blank">
+          <p className="labsParagraphLink">
+            Checkout the app{' '}
+            <img className="labsImage" src={Arrow} alt="arrow pointing right" />
+          </p>
+        </a>
       </div>
       <div className="labsPhotos"></div>
     </section>
