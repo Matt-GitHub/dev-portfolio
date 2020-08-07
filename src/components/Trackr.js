@@ -1,54 +1,46 @@
-import React from "react";
-import Arrow from "../assets/icons8-right-35.svg";
+import React from 'react';
+import Arrow from '../assets/icons8-right-35.svg';
 
 const Trackr = () => {
   return (
     <section className="project">
       <div className="projectDescription">
-        <h2 className="projectHeader">Trackr</h2>
+        <h2 className="projectHeader">Illustrated JS</h2>
         <p className="projectParagraph">
-          A personal project that represents a niche spin-off of the popular job
-          hunter app, Huntr. Trackr is an all-in-one application tracker
-          tailored towards new grads that allows users to manage their
-          applications across platforms, create and leverage their network for
-          open positions, and access guides and resources to be a stand out
-          applicant
+          A bootstrapped SaaS computer science education platform designed with
+          accessibility in mind. Illustrated JS is a platform to learn data
+          structures and algorithms for those without a math and engineering
+          degree. Learn skills to transform your applications, improve
+          performance and crush your interview.
         </p>
         <ul className="projectUl">
-          <li>Built using react, redux, node js, and postgreSQL</li>
-          <li>Developed database schema following RESTful api principles</li>
           <li>
-            Managed data flow and state management using redux and react hooks
-            to create seamless user experience
+            Designed as an accessibility-first application which provides closed
+            captioning and accessible media
+          </li>
+          <li>
+            State management and caching of static assets used by leveraging
+            react query
+          </li>
+          <li>
+            Built using JavaScript, React, React Router, CSS, Prism JS, React
+            Query, and React-Player
           </li>
         </ul>
-        <p className="projectParagraphLink">
-          Checkout the code{" "}
-          <img
-            className="projectImage"
-            src={Arrow}
-            alt="arrow pointing right"
-          />
-        </p>
-        <p className="projectParagraphLink">
-          Checkout the app{" "}
-          <img
-            className="projectImage"
-            src={Arrow}
-            alt="arrow pointing right"
-          />
-        </p>
+        <a href="https://github.com/Matt-GitHub/Illustrated" target="blank">
+          <p className="labsParagraphLink">
+            Checkout the code{' '}
+            <img className="labsImage" src={Arrow} alt="arrow pointing right" />
+          </p>
+        </a>
+        <a href="https://illustratedjs.io" target="blank">
+          <p className="labsParagraphLink">
+            Checkout the app{' '}
+            <img className="labsImage" src={Arrow} alt="arrow pointing right" />
+          </p>
+        </a>
       </div>
-      <div className="projectImages">
-        {/* <div className="twoImages">
-          <img className="projectImageImport" src={Image} alt="something" />
-          <img className="projectImageImport" src={Image} alt="fun" />
-        </div>
-        <div className="twoImages">
-          <img className="projectImageImport" src={Image} alt="asdf" />
-          <img className="projectImageImport" src={Image} alt="asdf" />
-        </div> */}
-      </div>
+      <div className="projectImages"></div>
     </section>
   );
 };
