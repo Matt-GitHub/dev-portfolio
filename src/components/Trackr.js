@@ -35,7 +35,7 @@ const Trackr = () => {
         </a>
         <a href="https://illustratedjs.io" target="blank">
           <p className="labsParagraphLink">
-            Checkout the app
+            Checkout out a writing sample
             <img className="labsImage" src={Arrow} alt="arrow pointing right" />
           </p>
         </a>
